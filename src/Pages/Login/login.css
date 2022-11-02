@@ -1,0 +1,16 @@
+/* input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+
+  .card, .btn, input{
+    border-radius:0 !important;
+  } */
+
+  .login-form-left {
+    background-color: #000;
+  }
+  .form-control:focus{
+    border-color: none;
+    box-shadow: none;
+  }

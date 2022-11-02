@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f5f2ea !important;
+  min-height: 100vh;
+  font-weight: 400;
+  font-family: 'Noto Serif', "Fira Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span {
+  font-weight: 500;
+  font-family: 'Noto Serif', "Fira Sans", sans-serif;
+}
+
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+.navbar-nav a {
+  font-size: 18px;
+}
